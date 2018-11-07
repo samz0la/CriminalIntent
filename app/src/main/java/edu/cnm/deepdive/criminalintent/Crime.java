@@ -4,18 +4,18 @@ import java.util.Date;
 import java.util.UUID;
 
 public class Crime {
-  private UUID mId;
+  private UUID Id;
   private String mTitle;
   private Date mDate;
   private boolean mSolved;
 
   public Crime() {
-    mId = UUID.randomUUID();
+    Id = UUID.randomUUID();
     mDate = new Date();
   }
 
-  public UUID getmId() {
-    return mId;
+  public UUID getId() {
+    return Id;
   }
 
   public String getmTitle() {
